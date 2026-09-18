@@ -25,7 +25,7 @@ public class Recorder {
     private MaterialType material;
 
     @Enumerated(EnumType.STRING)
-    private SizeType recorderSize;
+    private SizeType size;
 
     private double basePrice;
 }
