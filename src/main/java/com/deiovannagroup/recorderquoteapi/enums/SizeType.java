@@ -1,6 +1,6 @@
 package com.deiovannagroup.recorderquoteapi.enums;
 
-public enum RecorderSizeType {
+public enum SizeType {
     SMALL,
     MEDIUM,
     LARGE;

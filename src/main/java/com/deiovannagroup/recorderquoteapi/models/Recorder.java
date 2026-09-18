@@ -1,7 +1,7 @@
 package com.deiovannagroup.recorderquoteapi.models;
 
 import com.deiovannagroup.recorderquoteapi.enums.MaterialType;
-import com.deiovannagroup.recorderquoteapi.enums.RecorderSizeType;
+import com.deiovannagroup.recorderquoteapi.enums.SizeType;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -25,7 +25,7 @@ public class Recorder {
     private MaterialType material;
 
     @Enumerated(EnumType.STRING)
-    private RecorderSizeType recorderSize;
+    private SizeType recorderSize;
 
     private double basePrice;
 }
